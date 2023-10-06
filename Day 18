@@ -1,0 +1,14 @@
+#include<stdio.h>
+void abc()
+{
+   auto int a=10;
+   printf("%d\n",a);
+   a=a+10;
+}
+int main()
+{
+   abc();
+   abc();
+   abc();
+   return 0;
+}
