@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+  float c1=6,c2=8;
+  printf("Ratio of strength of c1 and c2=%f\n",c1/c2);
+  return 0;
+}
