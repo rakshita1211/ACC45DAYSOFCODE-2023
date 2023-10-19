@@ -1,0 +1,16 @@
+#include<stdio.h>
+￼int main()
+{
+   int p,r,t;
+   printf("Enter P:");
+   scanf("%d",&P);
+   printf("Enter r:");
+   scanf("%d",&r);
+   printf("Enter t:");
+   scanf("%d",&t);
+   int a=(1+r/100);
+   int power=pow(a,t);
+   int CI=P*power;
+   ptintf("CI is %d",CI);
+   return 0;
+}
